@@ -1,5 +1,0 @@
-package bankmain
-
-func main() {
-
-}

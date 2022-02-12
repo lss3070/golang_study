@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func canIDrink(age int) bool {
 
@@ -35,5 +37,9 @@ func main() {
 	for key, _ := range songseop {
 		fmt.Println(key)
 	}
+
+	account := banking.Account{Owner: "songseop", Balance: 1000}
+	account.Owner = "pepe"
+	fmt.Println(account)
 
 }
